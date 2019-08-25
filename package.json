@@ -1,0 +1,16 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "A simple note taking app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,graphql src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.18.2",
+    "nodemon": "^1.19.1",
+    "prisma-binding": "^2.3.15"
+  }
+}

@@ -1,0 +1,5 @@
+type Note {
+  id: ID! @id
+  title: String!
+  content: String!
+}
